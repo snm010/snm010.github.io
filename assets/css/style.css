@@ -44,3 +44,6 @@
 .hero h1,.hero h1 span{color:#2f78b7 !important}
 
 .smart-hospital-visual{display:block;width:100%;height:auto;max-width:1200px;margin:0 auto;border-radius:14px;box-shadow:0 16px 44px rgba(22,49,72,.12)}
+.hero-orbit {
+    display: none !important;
+}
