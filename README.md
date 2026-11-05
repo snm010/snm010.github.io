@@ -43,3 +43,4 @@ Edit any file in GitHub and commit changes to update the live website.
 
 
 The homepage currently presents the author's position at Manipal Institute of Technology. Update the affiliation and experience section after any future appointment begins.
+\nThe homepage includes an animated connected-hospital illustration at `assets/images/smart-hospital-network.gif`.\n

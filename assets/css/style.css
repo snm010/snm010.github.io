@@ -37,3 +37,6 @@
 @media(max-width:900px){.iot-visual-wrap{grid-template-columns:1fr;gap:22px}.iot-visual-copy>p:not(.eyebrow){max-width:650px}.brand{font-size:1rem}}
 @media(max-width:620px){.brand{font-size:.88rem}.iot-visual-section{padding:38px 0 48px}.iot-diagram-card{padding:8px 5px}.iot-diagram{min-height:140px}.diagram-caption{font-size:.62rem}.iot-legend{gap:11px}}
 @media(prefers-reduced-motion:reduce){.network-dashes path{animation:none}.packets{display:none}html{scroll-behavior:auto}}
+
+.smart-hospital-visual{display:block;width:100%;height:auto;max-width:1120px;margin:0 auto;border-radius:14px;box-shadow:0 16px 44px rgba(22,49,72,.12)}
+@media(max-width:620px){.iot-visual-section{padding:24px 0 30px}.smart-hospital-visual{border-radius:8px}}
