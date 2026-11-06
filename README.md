@@ -1,47 +1,26 @@
 # Dr. Soumya Nandan Mishra — Academic Website
 
-Configured for:
-- GitHub username: `snm010`
-- Repository: `snm010.github.io`
-- Website: https://snm010.github.io/
+This is a multi-page academic website structured around the navigation and information architecture of the supplied Karnish Tapadar reference website.
 
-## Publish
-1. Extract this ZIP.
-2. Open https://github.com/snm010/snm010.github.io
-3. Upload the contents of this folder (not the enclosing folder). `index.html` must be at repository root.
-4. Commit to `main`.
-5. Go to Settings → Pages → Deploy from a branch → `main` → `/(root)` → Save.
-6. Wait for deployment, then visit https://snm010.github.io/.
+## Pages
+- `index.html` — Home, announcements, recent updates, short biography, research interests, education, experience, awards, professional activities and technical skills.
+- `research.html` — Research interests, research projects and connected healthcare illustration.
+- `publications.html` — Journal articles, conference papers and book chapters.
+- `teaching.html` — Courses, teaching assistance and student projects/supervision.
+- `contact.html` — Contact information and academic links.
 
-## Content source and review notes
-The initial biography, education, experience, research interests, teaching, awards and publication entries were transcribed from the user's previous Wix website and the CV linked from that site. The CV is linked externally from Wix because the source PDF could not be copied into this package.
+## Assets
+- `assets/css/style.css` — Shared responsive styling.
+- `assets/js/main.js` — Shared mobile navigation and current-year footer.
+- `assets/images/` — Profile photo, favicon and research illustration.
 
-Please review these items before treating the site as final:
-- The CV lists Ph.D. completion in 2026 and thesis period July 2020–January 2026. The site uses the thesis title as listed in the CV: “Adaptive Routing in LLN Networks for Mission-Critical IoT Applications.”
-- The current position is shown as Assistant Professor at Manipal Institute of Technology, based on the user's later update in this conversation. MIT Manipal is listed as prior experience, June 28, 2025–November 2026.
-- The CV lists the Ad Hoc Networks article as accepted. It is marked “Accepted” here; update with volume, pages, year and DOI if/when available.
-- The EHA-RPL conference item has a year discrepancy between the legacy website and CV; the note flags it for verification.
-- Referee names, personal phone numbers and referee contact details from the old CV are not reproduced on the public website.
-- A neutral profile-photo placeholder remains. Replace `assets/images/profile.jpg` with a professional photograph and update its `src` in `index.html`.
-- The CV link currently points to the existing Wix-hosted PDF. If you prefer, upload a current CV PDF to `assets/files/` and update the link.
+## Publish on GitHub Pages
+1. Extract the ZIP.
+2. Upload the contents of this folder to the root of `snm010.github.io` (not the enclosing folder).
+3. Ensure `index.html` is at the repository root.
+4. Commit to the `main` branch and allow GitHub Pages to deploy.
 
-## Files
-- `index.html`: all website content
-- `assets/css/style.css`: responsive design
-- `assets/js/main.js`: mobile navigation
-- `assets/images/profile.jpg`: replace with your photo
-- `assets/images/favicon.svg`: browser icon
-
-Edit any file in GitHub and commit changes to update the live website.
-
-## Latest homepage refinements
-- Replaced the `SNM.` monogram with the full name in the navigation.
-- Removed the generic “ACADEMIC PROFILE” eyebrow.
-- Removed the quote/tagline overlay from the profile photograph.
-- Simplified the introductory paragraph.
-- Added an animated, responsive IoT network diagram showing sensor-to-gateway-to-edge/cloud-to-application packet flow. The animation is implemented in SVG/CSS and respects reduced-motion preferences.
-
-
-The homepage currently presents the author's position at Manipal Institute of Technology. Update the affiliation and experience section after any future appointment begins.
-\nThe homepage includes an animated connected-hospital illustration at `assets/images/smart-hospital-network.gif`.\n
-The homepage uses an image-only animated smart-hospital illustration. The animation shows data packets moving between patient monitoring devices, the hospital gateway, cloud services and remote monitoring endpoints. The hero name is blue and the portrait has no caption.
+## Please verify before publishing
+- The homepage currently describes the NIT Rourkela appointment as joining on November 16, 2026, since that is the joining date provided.
+- Review the academic profile, publications and CV link for any latest corrections.
+- The contact address currently retains the MIT Manipal details from the supplied website; update it to NIT Rourkela after joining if desired.

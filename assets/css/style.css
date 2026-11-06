@@ -56,3 +56,9 @@
     margin: 0 auto;
     border-radius: 14px;
 }
+
+/* Multi-page academic website navigation */
+.nav a[aria-current="page"]{color:var(--blue2);font-weight:800}
+.page-heading{padding:76px 0 30px;background:var(--pale)}
+.page-heading h1{font-size:clamp(2.4rem,5vw,3.8rem)}
+@media(max-width:720px){.page-heading{padding:52px 0 22px}}
